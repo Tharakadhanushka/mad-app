@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Travel Guide</string>
+    <string name="title_home">Home</string>
+    <string name="title_favourites">My Favourites</string>
+    <string name="title_cities">Cities</string>
+    <string name="title_country">Countries </string>
+    <string name="title_activity_maps">Map</string>
+    <string name="city_weather">15 C</string>
+    <string name="weather_desc">Sunny</string>
+    <string name="city_title">City name</string>
+    <string name="City_description">city description</string>
+    <string name="Airport">Nearest Airport</string>
+    <string name="City_map">City Map</string>
+    <string name="Wiki">City wikipedia</string>
+    <string name="city_population">Population of the city</string>
+    <string name="Countries">Countries</string>
+    <string name="Favourites">Favourites</string>
+    <string name="Cities">Cities</string>
+    <string name="Country_name">Country name</string>
+    <string name="Home_page_title">Home</string>
+    <string name="title_activity_Note">My Notes</string>
+    <string name="title_activity_detail">Note Detail</string>
+    <string name="Note_Title">Note Title</string>
+    <string name="note_created_date">created : 7/31/2019</string>
+    <string name="note_created_time">07:07</string>
+    <string name="note_empty">Empty Notes. Click + to add new notes...</string>
+
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="not_registered">Not Registered Click Here</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_registered">Already Registered Click Here</string>
+    <string name="welcome_user">Welcome User</string>
+</resources>

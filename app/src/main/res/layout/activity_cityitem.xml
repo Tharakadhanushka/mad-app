@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="vertical"
+    style="@style/CardView.Light"
+    app:cardCornerRadius="8dp"
+    android:elevation="3dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginTop="8dp"
+    tools:context=".CityItem">
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sri"/>
+
+        <TextView
+            android:id="@+id/title1TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/city_title"
+            android:shadowColor="#787272"
+            android:shadowDx="3.4"
+            android:shadowDy="3.0"
+            android:shadowRadius="5"
+            android:textColor="#101010"
+
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="11dp"/>
+
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/countryNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Country_name"
+        android:shadowColor="#B8B8B8"
+        android:shadowDx="3.4"
+        android:shadowDy="3.0"
+        android:shadowRadius="5"
+
+        android:textColor="#656565"
+        android:textSize="15dp"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="150dp"
+        android:layout_marginBottom="12dp"/>
+    <TextView
+        android:id="@+id/populationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/city_population"
+
+        android:textColor="#fff"
+        android:visibility="invisible"
+
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="18dp"/>
+    <TextView
+        android:id="@+id/citydescTextView"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:textColor="#6E00B1" />
+
+    <TextView
+        android:id="@+id/airportTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/City_map"
+        android:visibility="invisible"
+        android:textColor="#fff"
+
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="18dp"/>
+
+
+
+</androidx.cardview.widget.CardView>
